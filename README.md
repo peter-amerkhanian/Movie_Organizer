@@ -1,6 +1,6 @@
-#Media Organizer
+# Media Organizer
 Find video media files in a messy directory.  
-![Excel](http://tinypic.com/r/b5sk8k/9)
+![Excel](http://i67.tinypic.com/b5sk8k.png)
 
 ## Installation/Usage:
 Python 3.6 required. Download the zip file of the repo, open a terminal in that directory.

@@ -83,7 +83,7 @@ def get_file_paths(directory='M:'):
 
 
 if __name__ == "__main__":
-    directory = input(r"Enter the directory you wish to scan (for example, 'M:' or 'C:\Users\peter\Downloads'): ")
+    directory = input(r"Enter the absolute path of the directory you wish to scan (for example, 'M:' or 'C:\Users\peter\Downloads'): ")
     print('Scanning...')
     movies = (info_extract(tup) for tup in get_file_paths(directory) if info_extract(tup))
     data = pd.DataFrame(movies)

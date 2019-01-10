@@ -6,6 +6,7 @@ from pathlib import Path
 from pandas import ExcelWriter
 import excel_organize
 
+
 def info_extract(tup):
     """ Extract a movie file's title, date, season/episode, and file type
     Args:

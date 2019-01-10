@@ -3,9 +3,14 @@ Find video media files in a messy directory.
 ![Excel](http://i67.tinypic.com/b5sk8k.png)
 
 ## Installation/Usage:
-Python 3.6 required. Download the zip file of the repo, open a terminal in that directory.
+Reqs:  
+- Python 3.6
+- Excel 2013 (any version should do)  
+
+Install:  
+Download the zip file of the repo, open a terminal in that directory.
 ```
-# Install the requirements    
+# Install the required packages   
 $ pip install -r requirements.txt
 
 # Run the python file

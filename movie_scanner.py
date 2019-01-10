@@ -4,7 +4,7 @@ import os
 from collections import OrderedDict
 from pathlib import Path
 from pandas import ExcelWriter
-
+import excel_organize
 
 def info_extract(tup):
     """ Extract a movie file's title, date, season/episode, and file type
@@ -91,3 +91,6 @@ if __name__ == "__main__":
     data.to_excel(writer, 'Sheet1', index=False)
     writer.save()
     print('Scan complete, spreadsheet size: {} rows X {} columns'.format(data.shape[0], data.shape[1]))
+    print('Tidying up spreadsheet...')
+    excel_organize.excel_organize(data.shape[0]+1)
+    print('Tasks complete.')

@@ -8,6 +8,10 @@ Reqs:
 - Excel 2013 (any version should do)  
 
 Install:  
+Option 1 (.exe):  
+Download the zip file of the repo, unzip, navigate to to '\movie_organizer-master\dist\movie_scanner' and find the .exe file, 'movie_scanner.exe' and run it
+
+Option 2 (from the command line):  
 Download the zip file of the repo, open a terminal in that directory.
 ```
 # Install the required packages   
@@ -16,6 +20,7 @@ $ pip install -r requirements.txt
 # Run the python file
 $ python movie_scanner.py
 ```
+
 The program will then prompt you for a Windows absolute path, i.e. 'C:\user\joe\downloads'
 
 ## TODO:

@@ -5,7 +5,7 @@ Find video media files in a messy directory.
 ## Installation/Usage:
 Reqs:  
 - Python 3.6
-- Excel 2013 (any version should do)  
+- Excel 2013 (any version should do) / LibreOffice Calc 
 
 Install:  
 Download the zip file of the repo, open a terminal in that directory.
